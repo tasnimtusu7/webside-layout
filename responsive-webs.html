@@ -26,6 +26,10 @@
         .split img{
             width: 100%;
         }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
         @media screen and ( max-width :576px) {
             .container-two{
                 flex-direction: column-reverse;
@@ -55,11 +59,102 @@
             </div>
         </div>
     </section>
+    <section>
+        <h2>multi column</h2>
+        <div class="container">
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-1</h2>
+                <h4>prise-100</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempora aliquid hic eaque neque aspernatur asperiores, maxime repellat dolores omnis voluptates animi doloremque harum pariatur deleniti esse quod suscipit eius?</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-2</h2>
+                <h4>prise-200</h4>
+                <p>Maxime, recusandae vero. Pariatur blanditiis eveniet ipsam quidem quibusdam ea animi! Sed autem doloribus optio esse, reprehenderit dolor quisquam dolores inventore ea sunt ut, quis aperiam dolorum. Totam, reiciendis aliquam?</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-3</h2>
+                <h4>prise-300</h4>
+                <p>Iste amet dicta perspiciatis totam modi ducimus, iusto corporis numquam hic nam dolorum. In magni et minus nulla, est aliquam cumque praesentium excepturi? Soluta eum at aperiam veniam facere quos!</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-4</h2>
+                <h4>prise-400</h4>
+                <p>A hic nobis molestiae culpa maxime exercitationem autem nulla consequatur quisquam, non soluta vel numquam nam doloremque ducimus tempora eos adipisci, perferendis voluptates. At perspiciatis optio accusamus ex illo nobis!</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-5</h2>
+                <h4>prise-500</h4>
+                <p>Vero ea perspiciatis dolore aut nam veritatis impedit. Esse enim impedit minima iste repellat commodi quod minus dolor autem deserunt, provident, corporis ipsum dolores veritatis fugiat dolorem, aperiam tenetur quibusdam!</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-6</h2>
+                <h4>prise-600</h4>
+                <p>Culpa deserunt perspiciatis amet animi blanditiis ipsum reprehenderit veniam eaque molestiae error! Nulla perferendis dolore dolorum. Aperiam inventore excepturi est in veritatis voluptatum necessitatibus id dolores, ullam, facilis modi alias.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-7</h2>
+                <h4>prise-700</h4>
+                <p>Natus quidem doloremque explicabo quia possimus iusto libero sequi debitis cum repudiandae quam, consectetur distinctio beatae suscipit amet omnis ut accusamus dolorem quaerat eveniet eum totam quis! Fugiat, nihil amet!</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-8</h2>
+                <h4>prise-800</h4>
+                <p>Culpa, voluptatem accusantium. Blanditiis quae amet, laudantium odio nobis recusandae nihil adipisci, natus nemo quo, cum doloremque quibusdam dignissimos quas quisquam atque voluptates illum repudiandae asperiores fuga iure aperiam praesentium.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-9</h2>
+                <h4>prise-900</h4>
+                <p>Atque ea quasi eos nam sequi fuga inventore commodi, quos explicabo ullam laudantium, soluta natus harum magnam vel quae nobis? Modi quo tenetur dolor, natus sed explicabo quae rerum minima.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-10</h2>
+                <h4>prise-1000</h4>
+                <p>Numquam corrupti maiores sint veniam consequatur sunt. Ab nobis quis dolores? Nesciunt dolor, similique esse cupiditate blanditiis et dolore necessitatibus, nostrum minus perferendis tenetur temporibus eveniet debitis distinctio, exercitationem maiores.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-11</h2>
+                <h4>prise-1100</h4>
+                <p>Perspiciatis, ex nemo. Quo eveniet sunt culpa, impedit a dolorem facilis voluptatem minus odit itaque, maxime rerum esse laudantium perspiciatis libero? Natus cumque dolore magni iste incidunt fuga quas quibusdam.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="images/food.jpg" alt="">
+                <h2>item-12</h2>
+                <h4>prise-1200</h4>
+                <p>Quibusdam dignissimos, obcaecati perferendis quisquam nostrum ut praesentium. Consequuntur eligendi laudantium, voluptatibus eos provident voluptates iste cupiditate. Nobis similique fugiat necessitatibus itaque minus dolores? Optio voluptatibus mollitia amet laborum impedit.</p>
+                <button>order now</button>
+            </div>
+        </div>
+    </section>
     <!--
         1. viewport meta tag
         2. css relative unit'
         3.responsive images (fluid image)
         4. body max-with and margin auto
+        5.responsive split screen using flex ( 2 column section)
+        6.grid responsive (multi column)
     -->
 </body>
 </html>
