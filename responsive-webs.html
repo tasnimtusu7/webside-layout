@@ -29,6 +29,15 @@
         .container{
             display: grid;
             grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid sandybrown;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        .food img{
+            width: 100%;
         }
         @media screen and ( max-width :576px) {
             .container-two{
@@ -37,6 +46,14 @@
             .container-two .split{
             width: 100%;
         }
+        .container{
+            grid-template-columns: repeat(1 1fr);
+        }
+        }
+        @media  screen and (min-width:577px) and (max-width:700px) {
+            .container{
+                grid-template-columns: repeat(2 1fr);
+            }
         }
     </style>
 </head>
